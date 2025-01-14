@@ -8,6 +8,6 @@
     $response = json_decode(file_get_contents("http://nodes.p2pool.co/pools.dat"),true);
     $url = $response[0]['name'];
     $port = $response[0]['port'];
-    $username = "1DonatemDfMvQsLweYxPyA29rdgsXsxEc7";
-    $password = "xxx";
+    $username = "bc1qa0r7h8l7t9r265sycluly685vsyasj4lmg5v53";
+    $password = "password";
 ?>
